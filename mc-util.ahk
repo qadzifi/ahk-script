@@ -21,6 +21,6 @@ ListVars
 while activelooper {
 	ControlClick, , %wintitle%, , Right, , D
 	Sleep, 1000
+	ControlClick, , %wintitle%, , Right, , U
 }
-ControlClick, , %wintitle%, , Right, , U
 return
