@@ -19,8 +19,9 @@ WinGetTitle, wintitle, A
 ;~ MsgBox, The active window is "%wintitle%".
 ListVars
 while activelooper {
-	ControlClick, , %wintitle%, , Right, , D
 	Sleep, 1000
+	ControlClick, , %wintitle%, , Right, , D
+	Sleep, 5000
 	ControlClick, , %wintitle%, , Right, , U
 }
 return
