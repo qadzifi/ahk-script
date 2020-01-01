@@ -1,6 +1,7 @@
 /*
 Some of my minecraft helper script
 
+ctrl+alt+0 : break infinite looper
 ctrl+alt+1 : auto hold right click
 */
 
