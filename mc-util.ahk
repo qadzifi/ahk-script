@@ -1,6 +1,7 @@
 /*
 Some of my minecraft helper script
 
+ctrl+alt+` : terminate script
 ctrl+alt+0 : break infinite looper
 ctrl+alt+1 : auto hold right click
 */
@@ -8,6 +9,10 @@ ctrl+alt+1 : auto hold right click
 wintitle := ""
 activelooper := false
 ListVars
+
+^!`::
+ExitApp
+return
 
 ^!0::
 activelooper := false
